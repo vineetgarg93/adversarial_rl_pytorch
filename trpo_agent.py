@@ -15,7 +15,6 @@ torch.utils.backcompat.broadcast_warning.enabled = True
 torch.utils.backcompat.keepdim_warning.enabled = True
 torch.set_default_tensor_type('torch.DoubleTensor')
 
-# https://github.com/ikostrikov/pytorch-trpo/
 
 class TRPOAgent(object):
     """docstring for TRPOAgent"""
@@ -117,7 +116,7 @@ class TRPOAgent(object):
             prev_value = self.values.data[i, 0]
             prev_advantage = self.advantages[i, 0]
 
-        self.targets = Variable(self.returns)    
+        self.targets = Variable(self.returns)
         
         flat_params, _, opt_info = scipy.optimize.fmin_l_bfgs_b(self.get_value_loss, 
                                                                 get_flat_params_from(self.value_model).double().numpy(),

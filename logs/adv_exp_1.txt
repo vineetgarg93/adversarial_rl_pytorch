@@ -1,0 +1,203 @@
+2019-04-11 13:07:44,673 - gym.envs.registration - INFO - Making new env: HalfCheetahAdv-v1
+2019-04-11 13:07:44,755 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2019-04-11 13:07:44,898 - root - INFO - HalfCheetahAdv-v1 Environment Created
+2019-04-11 13:07:44,918 - root - INFO - Protagonist Policy Created
+2019-04-11 13:07:44,919 - root - INFO - Adversary Policy Created
+2019-04-11 13:07:44,919 - root - INFO - Value Function Network Created
+2019-04-11 13:07:56,987 - root - INFO - Episode 1	Last reward: -6499.56	Average reward: -6527.50
+2019-04-11 13:08:25,165 - root - INFO - Episode 1	Last reward: -6291.91	Average reward: -6333.63	Test Reward: -6177.86
+2019-04-11 13:08:36,820 - root - INFO - Episode 2	Last reward: -6221.48	Average reward: -6228.06
+2019-04-11 13:09:05,015 - root - INFO - Episode 2	Last reward: -6118.82	Average reward: -6097.34	Test Reward: -5815.88
+2019-04-11 13:09:16,622 - root - INFO - Episode 3	Last reward: -5750.87	Average reward: -5870.04
+2019-04-11 13:09:44,585 - root - INFO - Episode 3	Last reward: -5614.97	Average reward: -5503.31	Test Reward: -5458.70
+2019-04-11 13:09:56,094 - root - INFO - Episode 4	Last reward: -5506.15	Average reward: -5434.96
+2019-04-11 13:10:24,319 - root - INFO - Episode 4	Last reward: -5134.79	Average reward: -5099.80	Test Reward: -5198.85
+2019-04-11 13:10:35,844 - root - INFO - Episode 5	Last reward: -5222.09	Average reward: -5135.33
+2019-04-11 13:11:03,562 - root - INFO - Episode 5	Last reward: -5006.71	Average reward: -4848.54	Test Reward: -4909.86
+2019-04-11 13:11:15,059 - root - INFO - Episode 6	Last reward: -4891.77	Average reward: -4929.28
+2019-04-11 13:11:43,227 - root - INFO - Episode 6	Last reward: -4400.11	Average reward: -4448.44	Test Reward: -4412.10
+2019-04-11 13:11:54,855 - root - INFO - Episode 7	Last reward: -4538.39	Average reward: -4513.50
+2019-04-11 13:12:23,199 - root - INFO - Episode 7	Last reward: -4191.23	Average reward: -4108.16	Test Reward: -4034.45
+2019-04-11 13:12:35,139 - root - INFO - Episode 8	Last reward: -3946.10	Average reward: -4083.07
+2019-04-11 13:13:03,780 - root - INFO - Episode 8	Last reward: -3476.05	Average reward: -3688.87	Test Reward: -3747.03
+2019-04-11 13:13:16,279 - root - INFO - Episode 9	Last reward: -3987.37	Average reward: -3851.55
+2019-04-11 13:13:44,897 - root - INFO - Episode 9	Last reward: -3512.30	Average reward: -3531.89	Test Reward: -3480.82
+2019-04-11 13:13:56,486 - root - INFO - Episode 10	Last reward: -3564.94	Average reward: -3505.11
+2019-04-11 13:14:25,229 - root - INFO - Episode 10	Last reward: -3318.23	Average reward: -3207.57	Test Reward: -3185.62
+2019-04-11 13:14:37,090 - root - INFO - Episode 11	Last reward: -3227.81	Average reward: -3176.66
+2019-04-11 13:15:04,781 - root - INFO - Episode 11	Last reward: -3113.61	Average reward: -3009.25	Test Reward: -2967.72
+2019-04-11 13:15:16,045 - root - INFO - Episode 12	Last reward: -2849.19	Average reward: -2916.92
+2019-04-11 13:15:44,123 - root - INFO - Episode 12	Last reward: -2636.70	Average reward: -2746.89	Test Reward: -2696.12
+2019-04-11 13:15:55,775 - root - INFO - Episode 13	Last reward: -2666.01	Average reward: -2585.94
+2019-04-11 13:16:23,887 - root - INFO - Episode 13	Last reward: -2371.14	Average reward: -2318.23	Test Reward: -2449.38
+2019-04-11 13:16:35,322 - root - INFO - Episode 14	Last reward: -2390.39	Average reward: -2354.57
+2019-04-11 13:17:03,342 - root - INFO - Episode 14	Last reward: -1963.41	Average reward: -2054.67	Test Reward: -2093.19
+2019-04-11 13:17:14,799 - root - INFO - Episode 15	Last reward: -2192.42	Average reward: -2099.35
+2019-04-11 13:17:43,012 - root - INFO - Episode 15	Last reward: -1836.16	Average reward: -1754.17	Test Reward: -1847.81
+2019-04-11 13:17:54,612 - root - INFO - Episode 16	Last reward: -1814.04	Average reward: -1820.23
+2019-04-11 13:18:22,257 - root - INFO - Episode 16	Last reward: -1427.34	Average reward: -1493.33	Test Reward: -1564.12
+2019-04-11 13:18:33,818 - root - INFO - Episode 17	Last reward: -1596.17	Average reward: -1541.26
+2019-04-11 13:19:02,516 - root - INFO - Episode 17	Last reward: -1371.13	Average reward: -1331.95	Test Reward: -1337.30
+2019-04-11 13:19:14,582 - root - INFO - Episode 18	Last reward: -1242.20	Average reward: -1304.80
+2019-04-11 13:19:42,488 - root - INFO - Episode 18	Last reward: -1221.33	Average reward: -1133.16	Test Reward: -1121.28
+2019-04-11 13:19:54,310 - root - INFO - Episode 19	Last reward: -1066.23	Average reward: -1028.82
+2019-04-11 13:20:22,614 - root - INFO - Episode 19	Last reward: -877.18	Average reward: -815.72	Test Reward: -780.03
+2019-04-11 13:20:34,901 - root - INFO - Episode 20	Last reward: -819.69	Average reward: -738.59
+2019-04-11 13:21:02,676 - root - INFO - Episode 20	Last reward: -618.84	Average reward: -611.86	Test Reward: -473.59
+2019-04-11 13:21:14,299 - root - INFO - Episode 21	Last reward: -518.19	Average reward: -479.24
+2019-04-11 13:21:42,609 - root - INFO - Episode 21	Last reward: -389.12	Average reward: -442.47	Test Reward: -319.63
+2019-04-11 13:21:54,386 - root - INFO - Episode 22	Last reward: -209.40	Average reward: -310.93
+2019-04-11 13:22:23,106 - root - INFO - Episode 22	Last reward: -304.42	Average reward: -162.15	Test Reward: -54.53
+2019-04-11 13:22:35,040 - root - INFO - Episode 23	Last reward: 145.56	Average reward: -12.61
+2019-04-11 13:23:03,805 - root - INFO - Episode 23	Last reward: 325.90	Average reward: 359.54	Test Reward: 231.91
+2019-04-11 13:23:15,987 - root - INFO - Episode 24	Last reward: 222.73	Average reward: 203.00
+2019-04-11 13:23:43,929 - root - INFO - Episode 24	Last reward: 485.09	Average reward: 575.30	Test Reward: 507.56
+2019-04-11 13:23:55,421 - root - INFO - Episode 25	Last reward: 668.56	Average reward: 577.84
+2019-04-11 13:24:24,104 - root - INFO - Episode 25	Last reward: 666.24	Average reward: 778.30	Test Reward: 947.46
+2019-04-11 13:24:36,069 - root - INFO - Episode 26	Last reward: 915.98	Average reward: 875.21
+2019-04-11 13:25:04,354 - root - INFO - Episode 26	Last reward: 1094.44	Average reward: 1135.68	Test Reward: 1026.77
+2019-04-11 13:25:16,071 - root - INFO - Episode 27	Last reward: 1135.08	Average reward: 1142.42
+2019-04-11 13:25:44,097 - root - INFO - Episode 27	Last reward: 1502.34	Average reward: 1425.73	Test Reward: 1242.18
+2019-04-11 13:25:55,709 - root - INFO - Episode 28	Last reward: 1096.33	Average reward: 1148.47
+2019-04-11 13:26:24,562 - root - INFO - Episode 28	Last reward: 1589.96	Average reward: 1505.16	Test Reward: 1621.39
+2019-04-11 13:26:36,363 - root - INFO - Episode 29	Last reward: 1553.61	Average reward: 1533.46
+2019-04-11 13:27:04,136 - root - INFO - Episode 29	Last reward: 1840.75	Average reward: 1802.27	Test Reward: 1843.96
+2019-04-11 13:27:15,683 - root - INFO - Episode 30	Last reward: 1621.29	Average reward: 1641.88
+2019-04-11 13:27:43,450 - root - INFO - Episode 30	Last reward: 1920.42	Average reward: 1936.40	Test Reward: 1942.13
+2019-04-11 13:27:55,013 - root - INFO - Episode 31	Last reward: 2093.27	Average reward: 2014.15
+2019-04-11 13:28:22,750 - root - INFO - Episode 31	Last reward: 2061.94	Average reward: 2135.99	Test Reward: 2161.82
+2019-04-11 13:28:34,353 - root - INFO - Episode 32	Last reward: 2160.54	Average reward: 2214.23
+2019-04-11 13:29:02,529 - root - INFO - Episode 32	Last reward: 2309.14	Average reward: 2403.81	Test Reward: 2359.81
+2019-04-11 13:29:14,227 - root - INFO - Episode 33	Last reward: 2229.33	Average reward: 2380.48
+2019-04-11 13:29:41,980 - root - INFO - Episode 33	Last reward: 2479.86	Average reward: 2448.06	Test Reward: 2529.70
+2019-04-11 13:29:53,606 - root - INFO - Episode 34	Last reward: 2455.72	Average reward: 2426.23
+2019-04-11 13:30:22,140 - root - INFO - Episode 34	Last reward: 2758.41	Average reward: 2613.77	Test Reward: 2565.57
+2019-04-11 13:30:33,970 - root - INFO - Episode 35	Last reward: 2504.80	Average reward: 2349.58
+2019-04-11 13:31:01,696 - root - INFO - Episode 35	Last reward: 2637.91	Average reward: 2751.90	Test Reward: 2807.60
+2019-04-11 13:31:13,473 - root - INFO - Episode 36	Last reward: 2749.95	Average reward: 2792.96
+2019-04-11 13:31:42,086 - root - INFO - Episode 36	Last reward: 1888.96	Average reward: 2481.85	Test Reward: 398.34
+2019-04-11 13:31:54,022 - root - INFO - Episode 37	Last reward: 3007.36	Average reward: 2727.41
+2019-04-11 13:32:22,581 - root - INFO - Episode 37	Last reward: 2877.39	Average reward: 2893.08	Test Reward: 3049.90
+2019-04-11 13:32:34,422 - root - INFO - Episode 38	Last reward: 3237.58	Average reward: 3100.85
+2019-04-11 13:33:02,364 - root - INFO - Episode 38	Last reward: 3376.78	Average reward: 3291.48	Test Reward: 3255.61
+2019-04-11 13:33:14,482 - root - INFO - Episode 39	Last reward: 2516.67	Average reward: 2965.77
+2019-04-11 13:33:42,674 - root - INFO - Episode 39	Last reward: 3260.24	Average reward: 3437.85	Test Reward: 2972.30
+2019-04-11 13:33:54,471 - root - INFO - Episode 40	Last reward: 3454.22	Average reward: -963.91
+2019-04-11 13:34:23,313 - root - INFO - Episode 40	Last reward: 3470.12	Average reward: 3575.52	Test Reward: 3454.07
+2019-04-11 13:34:34,745 - root - INFO - Episode 41	Last reward: 3657.82	Average reward: 3566.14
+2019-04-11 13:35:02,854 - root - INFO - Episode 41	Last reward: 3906.02	Average reward: 3794.66	Test Reward: 3407.83
+2019-04-11 13:35:14,473 - root - INFO - Episode 42	Last reward: 3922.03	Average reward: 3669.31
+2019-04-11 13:35:42,358 - root - INFO - Episode 42	Last reward: 4039.08	Average reward: 4078.64	Test Reward: 3504.68
+2019-04-11 13:35:53,842 - root - INFO - Episode 43	Last reward: 3386.99	Average reward: 3761.49
+2019-04-11 13:36:22,466 - root - INFO - Episode 43	Last reward: 2756.76	Average reward: 3432.71	Test Reward: 3277.79
+2019-04-11 13:36:34,148 - root - INFO - Episode 44	Last reward: 4221.58	Average reward: 4212.49
+2019-04-11 13:37:02,038 - root - INFO - Episode 44	Last reward: 4383.67	Average reward: 588.93	Test Reward: 4380.03
+2019-04-11 13:37:13,478 - root - INFO - Episode 45	Last reward: 4055.61	Average reward: 4206.14
+2019-04-11 13:37:41,670 - root - INFO - Episode 45	Last reward: 4399.10	Average reward: 4411.16	Test Reward: 2254.42
+2019-04-11 13:37:53,347 - root - INFO - Episode 46	Last reward: 4395.87	Average reward: 2416.54
+2019-04-11 13:38:21,178 - root - INFO - Episode 46	Last reward: 4704.33	Average reward: 4585.92	Test Reward: -408.69
+2019-04-11 13:38:32,847 - root - INFO - Episode 47	Last reward: 4711.53	Average reward: 2306.16
+2019-04-11 13:39:01,716 - root - INFO - Episode 47	Last reward: 4954.49	Average reward: 2287.06	Test Reward: 2198.78
+2019-04-11 13:39:13,306 - root - INFO - Episode 48	Last reward: 4796.89	Average reward: 4853.50
+2019-04-11 13:39:41,142 - root - INFO - Episode 48	Last reward: 3768.27	Average reward: 4217.79	Test Reward: 4463.39
+2019-04-11 13:39:52,633 - root - INFO - Episode 49	Last reward: 4935.47	Average reward: 4949.83
+2019-04-11 13:40:20,567 - root - INFO - Episode 49	Last reward: 5351.69	Average reward: 5138.42	Test Reward: -369.26
+2019-04-11 13:40:31,988 - root - INFO - Episode 50	Last reward: 4841.00	Average reward: 4963.49
+2019-04-11 13:40:59,887 - root - INFO - Episode 50	Last reward: 5338.95	Average reward: 5284.34	Test Reward: 5272.39
+2019-04-11 13:41:11,697 - root - INFO - Episode 51	Last reward: -1911.77	Average reward: 1724.26
+2019-04-11 13:41:40,405 - root - INFO - Episode 51	Last reward: 5154.04	Average reward: 5250.37	Test Reward: 1032.41
+2019-04-11 13:41:52,203 - root - INFO - Episode 52	Last reward: 5184.73	Average reward: 5223.43
+2019-04-11 13:42:20,724 - root - INFO - Episode 52	Last reward: 5598.16	Average reward: 5578.42	Test Reward: 5281.16
+2019-04-11 13:42:32,759 - root - INFO - Episode 53	Last reward: 5647.87	Average reward: 5329.62
+2019-04-11 13:43:00,706 - root - INFO - Episode 53	Last reward: 5745.52	Average reward: 5809.09	Test Reward: 5568.50
+2019-04-11 13:43:12,280 - root - INFO - Episode 54	Last reward: 5787.10	Average reward: 5806.64
+2019-04-11 13:43:40,782 - root - INFO - Episode 54	Last reward: 6050.80	Average reward: 5964.84	Test Reward: 5045.59
+2019-04-11 13:43:52,563 - root - INFO - Episode 55	Last reward: 5846.47	Average reward: 5891.33
+2019-04-11 13:44:20,137 - root - INFO - Episode 55	Last reward: 6405.66	Average reward: 6327.86	Test Reward: 5727.47
+2019-04-11 13:44:31,584 - root - INFO - Episode 56	Last reward: 6240.44	Average reward: 6386.76
+2019-04-11 13:44:59,589 - root - INFO - Episode 56	Last reward: 6584.82	Average reward: 6526.40	Test Reward: 6431.91
+2019-04-11 13:45:11,073 - root - INFO - Episode 57	Last reward: 6414.97	Average reward: 6443.51
+2019-04-11 13:45:38,791 - root - INFO - Episode 57	Last reward: 6743.98	Average reward: 6853.82	Test Reward: 6692.38
+2019-04-11 13:45:50,336 - root - INFO - Episode 58	Last reward: 6948.24	Average reward: 6855.60
+2019-04-11 13:46:18,873 - root - INFO - Episode 58	Last reward: 7396.79	Average reward: 7254.29	Test Reward: 3552.14
+2019-04-11 13:46:30,608 - root - INFO - Episode 59	Last reward: 7119.01	Average reward: 7134.86
+2019-04-11 13:46:59,632 - root - INFO - Episode 59	Last reward: 5459.64	Average reward: 6425.92	Test Reward: 7318.88
+2019-04-11 13:47:11,678 - root - INFO - Episode 60	Last reward: 7300.44	Average reward: 7320.81
+2019-04-11 13:47:41,709 - root - INFO - Episode 60	Last reward: 7225.45	Average reward: 5536.38	Test Reward: 5074.32
+2019-04-11 13:47:54,374 - root - INFO - Episode 61	Last reward: 2979.37	Average reward: 4404.16
+2019-04-11 13:48:24,367 - root - INFO - Episode 61	Last reward: -5958.55	Average reward: -612.70	Test Reward: 7445.18
+2019-04-11 13:48:36,034 - root - INFO - Episode 62	Last reward: 7647.85	Average reward: 7317.62
+2019-04-11 13:49:05,145 - root - INFO - Episode 62	Last reward: 7584.74	Average reward: 7313.73	Test Reward: 4755.78
+2019-04-11 13:49:17,074 - root - INFO - Episode 63	Last reward: 7661.26	Average reward: 7398.62
+2019-04-11 13:49:45,595 - root - INFO - Episode 63	Last reward: 7648.23	Average reward: 7824.96	Test Reward: 6053.56
+2019-04-11 13:49:57,864 - root - INFO - Episode 64	Last reward: 6409.94	Average reward: 6879.40
+2019-04-11 13:50:26,627 - root - INFO - Episode 64	Last reward: 7380.89	Average reward: 7513.93	Test Reward: 7857.04
+2019-04-11 13:50:38,798 - root - INFO - Episode 65	Last reward: 8054.69	Average reward: 8140.73
+2019-04-11 13:51:08,035 - root - INFO - Episode 65	Last reward: 7952.32	Average reward: 7939.74	Test Reward: 6749.17
+2019-04-11 13:51:20,396 - root - INFO - Episode 66	Last reward: 7964.21	Average reward: 8000.38
+2019-04-11 13:51:49,806 - root - INFO - Episode 66	Last reward: 8351.05	Average reward: 8270.90	Test Reward: 5761.92
+2019-04-11 13:52:02,141 - root - INFO - Episode 67	Last reward: 8034.93	Average reward: 8067.62
+2019-04-11 13:52:30,768 - root - INFO - Episode 67	Last reward: 8336.70	Average reward: 8295.15	Test Reward: 8324.41
+2019-04-11 13:52:42,803 - root - INFO - Episode 68	Last reward: 8454.43	Average reward: 8153.95
+2019-04-11 13:53:11,257 - root - INFO - Episode 68	Last reward: 8601.54	Average reward: 8629.13	Test Reward: 7403.08
+2019-04-11 13:53:22,986 - root - INFO - Episode 69	Last reward: 8451.60	Average reward: 8521.67
+2019-04-11 13:53:51,054 - root - INFO - Episode 69	Last reward: 7207.44	Average reward: 8022.10	Test Reward: 7989.91
+2019-04-11 13:54:02,768 - root - INFO - Episode 70	Last reward: 8676.79	Average reward: 8636.85
+2019-04-11 13:54:30,844 - root - INFO - Episode 70	Last reward: 8665.31	Average reward: 8572.38	Test Reward: 8766.48
+2019-04-11 13:54:42,414 - root - INFO - Episode 71	Last reward: 8849.06	Average reward: 8876.95
+2019-04-11 13:55:10,431 - root - INFO - Episode 71	Last reward: 9164.80	Average reward: 9161.26	Test Reward: 9165.34
+2019-04-11 13:55:22,167 - root - INFO - Episode 72	Last reward: 9133.35	Average reward: 9149.32
+2019-04-11 13:55:50,561 - root - INFO - Episode 72	Last reward: 9157.36	Average reward: 9237.90	Test Reward: 9183.79
+2019-04-11 13:56:02,361 - root - INFO - Episode 73	Last reward: 9178.41	Average reward: 9232.08
+2019-04-11 13:56:30,492 - root - INFO - Episode 73	Last reward: 9655.50	Average reward: 7377.76	Test Reward: 9271.26
+2019-04-11 13:56:42,092 - root - INFO - Episode 74	Last reward: 9282.25	Average reward: 9388.43
+2019-04-11 13:57:10,804 - root - INFO - Episode 74	Last reward: 9559.81	Average reward: 9514.47	Test Reward: 5513.36
+2019-04-11 13:57:22,471 - root - INFO - Episode 75	Last reward: 9524.32	Average reward: 9122.82
+2019-04-11 13:57:50,471 - root - INFO - Episode 75	Last reward: 9623.96	Average reward: 9682.45	Test Reward: 9610.93
+2019-04-11 13:58:02,083 - root - INFO - Episode 76	Last reward: 9739.94	Average reward: 9417.24
+2019-04-11 13:58:29,938 - root - INFO - Episode 76	Last reward: 9654.47	Average reward: 9451.58	Test Reward: 9731.28
+2019-04-11 13:58:41,654 - root - INFO - Episode 77	Last reward: 9824.46	Average reward: 9664.44
+2019-04-11 13:59:09,865 - root - INFO - Episode 77	Last reward: 9704.97	Average reward: 9661.48	Test Reward: 9894.28
+2019-04-11 13:59:21,524 - root - INFO - Episode 78	Last reward: 9797.35	Average reward: 9741.16
+2019-04-11 13:59:50,131 - root - INFO - Episode 78	Last reward: 10109.45	Average reward: 9951.06	Test Reward: 10014.02
+2019-04-11 14:00:01,786 - root - INFO - Episode 79	Last reward: 9554.22	Average reward: 9733.75
+2019-04-11 14:00:30,171 - root - INFO - Episode 79	Last reward: 9682.81	Average reward: 9950.55	Test Reward: 10228.32
+2019-04-11 14:00:41,888 - root - INFO - Episode 80	Last reward: 10017.91	Average reward: 10073.75
+2019-04-11 14:01:09,715 - root - INFO - Episode 80	Last reward: 10374.29	Average reward: 10367.67	Test Reward: 10334.61
+2019-04-11 14:01:21,343 - root - INFO - Episode 81	Last reward: 10465.57	Average reward: 10482.31
+2019-04-11 14:01:49,434 - root - INFO - Episode 81	Last reward: 10420.19	Average reward: 10496.65	Test Reward: 10535.32
+2019-04-11 14:02:01,214 - root - INFO - Episode 82	Last reward: 10435.69	Average reward: 10422.41
+2019-04-11 14:02:29,848 - root - INFO - Episode 82	Last reward: 10549.56	Average reward: 10630.57	Test Reward: 10735.28
+2019-04-11 14:02:41,631 - root - INFO - Episode 83	Last reward: 10484.76	Average reward: 10584.44
+2019-04-11 14:03:09,908 - root - INFO - Episode 83	Last reward: 10819.18	Average reward: 10776.07	Test Reward: 10785.16
+2019-04-11 14:03:21,721 - root - INFO - Episode 84	Last reward: 10671.82	Average reward: 10660.15
+2019-04-11 14:03:50,699 - root - INFO - Episode 84	Last reward: 10872.94	Average reward: 10927.37	Test Reward: 10824.84
+2019-04-11 14:04:02,812 - root - INFO - Episode 85	Last reward: 10949.96	Average reward: 10955.77
+2019-04-11 14:04:30,923 - root - INFO - Episode 85	Last reward: 11032.22	Average reward: 10961.54	Test Reward: 11081.16
+2019-04-11 14:04:42,858 - root - INFO - Episode 86	Last reward: 10928.68	Average reward: 10893.16
+2019-04-11 14:05:10,914 - root - INFO - Episode 86	Last reward: 11018.95	Average reward: 11054.00	Test Reward: 11084.15
+2019-04-11 14:05:22,992 - root - INFO - Episode 87	Last reward: 11243.24	Average reward: 10706.32
+2019-04-11 14:05:51,523 - root - INFO - Episode 87	Last reward: 11203.83	Average reward: 11108.42	Test Reward: 11306.10
+2019-04-11 14:06:03,525 - root - INFO - Episode 88	Last reward: 11293.49	Average reward: 11259.96
+2019-04-11 14:06:31,782 - root - INFO - Episode 88	Last reward: 11117.75	Average reward: 10486.78	Test Reward: 10712.15
+2019-04-11 14:06:43,425 - root - INFO - Episode 89	Last reward: 10743.45	Average reward: 11029.48
+2019-04-11 14:07:11,167 - root - INFO - Episode 89	Last reward: 11157.40	Average reward: 10924.31	Test Reward: 10660.94
+2019-04-11 14:07:22,806 - root - INFO - Episode 90	Last reward: 11470.55	Average reward: 11090.58
+2019-04-11 14:07:51,056 - root - INFO - Episode 90	Last reward: 11304.87	Average reward: 11292.02	Test Reward: 10485.09
+2019-04-11 14:08:03,013 - root - INFO - Episode 91	Last reward: 10762.16	Average reward: 10961.13
+2019-04-11 14:08:31,968 - root - INFO - Episode 91	Last reward: 11348.27	Average reward: 11466.48	Test Reward: 11196.44
+2019-04-11 14:08:43,910 - root - INFO - Episode 92	Last reward: 11111.67	Average reward: 11178.79
+2019-04-11 14:09:12,396 - root - INFO - Episode 92	Last reward: 11293.25	Average reward: 11336.95	Test Reward: 11358.97
+2019-04-11 14:09:24,533 - root - INFO - Episode 93	Last reward: 11286.97	Average reward: 11352.92
+2019-04-11 14:09:52,927 - root - INFO - Episode 93	Last reward: 11375.47	Average reward: 11421.43	Test Reward: 11637.94
+2019-04-11 14:10:04,751 - root - INFO - Episode 94	Last reward: 11441.27	Average reward: 11349.61
+2019-04-11 14:10:32,953 - root - INFO - Episode 94	Last reward: 11756.42	Average reward: 11715.44	Test Reward: 11556.53
+2019-04-11 14:10:44,790 - root - INFO - Episode 95	Last reward: 11464.88	Average reward: 11457.38
+2019-04-11 14:11:13,273 - root - INFO - Episode 95	Last reward: 11800.52	Average reward: 11724.63	Test Reward: 11689.01
+2019-04-11 14:11:25,227 - root - INFO - Episode 96	Last reward: 11892.66	Average reward: 11673.04
+2019-04-11 14:11:54,187 - root - INFO - Episode 96	Last reward: 11807.38	Average reward: 11766.00	Test Reward: 11700.29
+2019-04-11 14:12:06,199 - root - INFO - Episode 97	Last reward: 11932.44	Average reward: 11794.72
+2019-04-11 14:12:34,251 - root - INFO - Episode 97	Last reward: 12046.82	Average reward: 11941.12	Test Reward: 11983.64
+2019-04-11 14:12:46,174 - root - INFO - Episode 98	Last reward: 11911.09	Average reward: 11869.02
+2019-04-11 14:13:14,651 - root - INFO - Episode 98	Last reward: 12023.59	Average reward: 11965.66	Test Reward: 12090.07
+2019-04-11 14:13:26,742 - root - INFO - Episode 99	Last reward: 12052.43	Average reward: 12016.98

@@ -8,12 +8,11 @@ Created on Sat Mar 30 16:26:40 2019
 
 import torch
 from torch.autograd import Variable
-from itertools import count
 import scipy.optimize
 import numpy as np
+import os
 
-from running_state import ZFilter
-from replay_memory import Memory
+from replay_memory_adv import Memory
 from config import Config
 from utils import set_flat_params_to, normal_log_density, get_flat_params_from, get_flat_grad_from
 
@@ -24,35 +23,112 @@ torch.set_default_tensor_type('torch.DoubleTensor')
 
 class TRPOAgent(object):
     """docstring for TRPOAgent"""
-    def __init__(self, env, pro_policy, adv_policy, pro_value, adv_value, is_protagonist = True):
+    def __init__(self, env, pro_policy, adv_policy, pro_value, running_state, running_reward, logger, filename, is_protagonist = True):
         super(TRPOAgent, self).__init__()
 
         self.args = Config()
         self.env = env
+        self.logger = logger
+        self.filename = filename + '_best.pth'
+        
+        self.best_reward = -np.inf
+        
         torch.manual_seed(self.args.seed)
         
         self.pro_policy_model = pro_policy
-        self.adv_policy_model = adv_policy
+        self.adv_policy_model = adv_policy        
         
-        self.pro_value_model = pro_value
-        self.adv_value_model = adv_value
+        self.is_protagonist = is_protagonist
+
+        if self.is_protagonist:
+            self.policy_model = self.pro_policy_model
+        else:
+            self.policy_model = self.adv_policy_model
+
+        self.value_model = pro_value
         
-        self.running_state = ZFilter((self.env.observation_space.shape[0],), clip=5)
-        self.running_reward = ZFilter((1,), demean=False, clip=10)
+        self.running_state = running_state
+        self.running_reward = running_reward
+
+        self.temp_action = temp_action()
 
     
-    def step(self):
+    def test_policy(self):
+        
+        
+        for _ in range(self.args.test_exp):
+            state = self.env.reset()
+            state = self.running_state(state)
+            
+            for _ in range(10000): # Don't infinite loop while learning
 
-        for i_episode in count(1):
+                pro_action = self.select_action(state, is_protagonist = True)
+                pro_action = pro_action.data[0].numpy()
 
-            self.memory = Memory()
-            self.reward_batch = 0
-            self.num_episodes = 0
-            self.single_step()
+                adv_action = self.select_action(state, is_protagonist = False)
+                adv_action = adv_action.data[0].numpy()*self.args.test_adv_fraction
 
-            if i_episode % self.args.log_interval == 0:
-                print('Episode {}\tLast reward: {}\tAverage reward {:.2f}'.format(
-                        i_episode, self.reward_sum, self.reward_batch))
+                temp_action.pro = pro_action
+                temp_action.adv = adv_action
+
+                next_state, reward, done, _ = self.env.step(temp_action)
+                self.test_reward += reward
+
+                next_state = self.running_state(next_state)
+                
+                if self.args.render:
+                    self.env.render()
+                if done:
+                    break
+                
+                state = next_state
+            
+        self.test_reward /= self.args.test_exp
+    
+    
+    def save_model(self, i_episode):
+        
+        self.logger.info('Performane Improved')
+        self.logger.info('Episode {}\tTest Reward: {:.2f}'.format(
+                        i_episode, self.test_reward))
+        
+        state = {
+            'iteration': i_episode + 1,
+            'state_dict_pro_policy': self.pro_policy_model.state_dict(),
+            'state_dict_adv_policy': self.adv_policy_model.state_dict(),
+            'state_dict_value_network': self.value_model.state_dict(),
+            'best_reward':self.test_reward
+        }
+        
+        self.logger.info("=>saving a new best checkpoint...")
+        torch.save(state, os.path.join(os.getcwd(), 'checkpoints', self.filename))
+    
+    
+    def step(self, i_episode):
+
+        self.memory = Memory()
+        self.reward_batch = 0
+        self.num_episodes = 0
+        self.test_reward = 0
+        
+        self.single_step()
+        
+        if not self.is_protagonist:
+            self.test_policy()
+            if self.test_reward > self.best_reward:
+                self.save_model(i_episode)
+                self.best_reward = self.test_reward
+
+        if i_episode % self.args.log_interval == 0:
+            
+            if self.is_protagonist:
+                self.logger.info('Episode {}\tLast reward: {:.2f}\tAverage reward: {:.2f}'.format(
+                        i_episode, self.pro_reward_sum, self.reward_batch))
+            else:
+                self.logger.info('Episode {}\tLast reward: {:.2f}\tAverage reward: {:.2f}\tTest Reward: {:.2f}'.format(
+                        i_episode, self.pro_reward_sum, self.reward_batch, self.test_reward))
+#            print('Episode {}\tLast reward: {}\tAverage reward {:.2f}'.format(
+#                    i_episode, self.pro_reward_sum, self.reward_batch))
 
 
     def single_step(self):
@@ -62,12 +138,27 @@ class TRPOAgent(object):
             state = self.env.reset()
             state = self.running_state(state)
 
-            self.reward_sum = 0
+            self.pro_reward_sum = 0
+            self.adv_reward_sum = 0
+
             for t in range(10000): # Don't infinite loop while learning
-                action = self.select_action(state)
-                action = action.data[0].numpy()
-                next_state, reward, done, _ = self.env.step(action)
-                self.reward_sum += reward
+
+                pro_action = self.select_action(state, is_protagonist = True)
+                pro_action = pro_action.data[0].numpy()
+
+                adv_action = self.select_action(state, is_protagonist = False)
+                adv_action = adv_action.data[0].numpy()
+
+                temp_action.pro = pro_action
+                temp_action.adv = adv_action
+
+                next_state, reward, done, _ = self.env.step(temp_action)
+                
+                pro_reward = reward
+                adv_reward = -reward
+
+                self.pro_reward_sum += pro_reward
+                self.adv_reward_sum += adv_reward
 
                 next_state = self.running_state(next_state)
 
@@ -75,7 +166,7 @@ class TRPOAgent(object):
                 if done:
                     mask = 0
 
-                self.memory.push(state, np.array([action]), mask, next_state, reward)
+                self.memory.push(state, np.array([pro_action]), np.array([adv_action]), mask, next_state, pro_reward, adv_reward)
 
                 if self.args.render:
                     self.env.render()
@@ -85,25 +176,36 @@ class TRPOAgent(object):
                 state = next_state
             num_steps += (t-1)
             self.num_episodes += 1
-            self.reward_batch += self.reward_sum
+            self.reward_batch += self.pro_reward_sum
 
         self.reward_batch /= self.num_episodes
         batch = self.memory.sample()
         self.update_params(batch)
 
 
-    def select_action(self, state):
+    def select_action(self, state, is_protagonist=True):
+
         state = torch.from_numpy(state).unsqueeze(0)
-        action_mean, _, action_std = self.policy_model(Variable(state))
+
+        if is_protagonist:
+            action_mean, _, action_std = self.pro_policy_model(Variable(state))
+        else:
+            action_mean, _, action_std = self.adv_policy_model(Variable(state))
+
         action = torch.normal(action_mean, action_std)
         return action
 
 
     def update_params(self, batch):
 
-        self.rewards = torch.Tensor(batch.reward)
+        if self.is_protagonist:
+            self.rewards = torch.Tensor(batch.pro_reward)
+            self.actions = torch.Tensor(np.concatenate(batch.pro_action, 0))
+        else:
+            self.rewards = torch.Tensor(batch.adv_reward)
+            self.actions = torch.Tensor(np.concatenate(batch.adv_action, 0))
+
         self.masks = torch.Tensor(batch.mask)
-        self.actions = torch.Tensor(np.concatenate(batch.action, 0))
         self.states = torch.Tensor(batch.state)
         self.values = self.value_model(Variable(self.states))
 
@@ -267,4 +369,6 @@ class TRPOAgent(object):
         return x
 
 
-    
+class temp_action(object):
+    pro = None
+    adv = None

@@ -1,0 +1,12 @@
+2019-05-02 17:34:07,428 - gym.envs.registration - INFO - Making new env: HalfCheetahAdv-v1
+2019-05-02 17:34:07,947 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2019-05-02 17:34:09,737 - root - INFO - HalfCheetahAdv-v1 Environment Created
+2019-05-02 17:34:09,874 - root - INFO - Protagonist Policy Created
+2019-05-02 17:34:09,875 - root - INFO - Adversary Policy Created
+2019-05-02 17:34:09,875 - root - INFO - Value Function Network Created
+2019-05-02 17:34:22,016 - root - INFO - Episode 1	Last reward: -6612.57	Average reward: -6628.94
+2019-05-02 17:34:50,157 - root - INFO - Performane Improved
+2019-05-02 17:34:50,158 - root - INFO - Episode 1	Test Reward: -6172.41
+2019-05-02 17:34:50,158 - root - INFO - =>saving a new best checkpoint...
+2019-05-02 17:34:50,159 - root - INFO - Episode 1	Last reward: -6207.79	Average reward: -6231.19	Test Reward: -6172.41
+2019-05-02 17:35:01,901 - root - INFO - Episode 2	Last reward: -6307.10	Average reward: -6255.52

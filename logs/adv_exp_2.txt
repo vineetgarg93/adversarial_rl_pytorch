@@ -1,0 +1,464 @@
+2019-04-11 14:29:53,276 - gym.envs.registration - INFO - Making new env: HalfCheetahAdv-v1
+2019-04-11 14:29:53,358 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2019-04-11 14:29:53,496 - root - INFO - HalfCheetahAdv-v1 Environment Created
+2019-04-11 14:29:53,518 - root - INFO - Protagonist Policy Created
+2019-04-11 14:29:53,519 - root - INFO - Adversary Policy Created
+2019-04-11 14:29:53,519 - root - INFO - Value Function Network Created
+2019-04-11 14:30:05,840 - root - INFO - Episode 1	Last reward: -6742.12	Average reward: -6685.40
+2019-04-11 14:30:34,685 - root - INFO - Performane Improved
+2019-04-11 14:30:34,685 - root - INFO - Episode 1	Test Reward: -6197.93
+2019-04-11 14:30:34,686 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:30:34,686 - root - INFO - Episode 1	Last reward: -6263.14	Average reward: -6248.05	Test Reward: -6197.93
+2019-04-11 14:30:47,088 - root - INFO - Episode 2	Last reward: -6403.32	Average reward: -6309.60
+2019-04-11 14:31:15,976 - root - INFO - Performane Improved
+2019-04-11 14:31:15,976 - root - INFO - Episode 2	Test Reward: -5954.21
+2019-04-11 14:31:15,976 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:31:15,977 - root - INFO - Episode 2	Last reward: -6408.40	Average reward: -6341.81	Test Reward: -5954.21
+2019-04-11 14:31:28,426 - root - INFO - Episode 3	Last reward: -5949.83	Average reward: -6030.14
+2019-04-11 14:31:56,424 - root - INFO - Performane Improved
+2019-04-11 14:31:56,424 - root - INFO - Episode 3	Test Reward: -5567.72
+2019-04-11 14:31:56,424 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:31:56,425 - root - INFO - Episode 3	Last reward: -5764.76	Average reward: -5659.33	Test Reward: -5567.72
+2019-04-11 14:32:08,181 - root - INFO - Episode 4	Last reward: -5527.20	Average reward: -5495.03
+2019-04-11 14:32:36,866 - root - INFO - Performane Improved
+2019-04-11 14:32:36,866 - root - INFO - Episode 4	Test Reward: -5125.02
+2019-04-11 14:32:36,866 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:32:36,867 - root - INFO - Episode 4	Last reward: -5001.21	Average reward: -5019.92	Test Reward: -5125.02
+2019-04-11 14:32:48,317 - root - INFO - Episode 5	Last reward: -5189.63	Average reward: -5192.99
+2019-04-11 14:33:16,454 - root - INFO - Performane Improved
+2019-04-11 14:33:16,454 - root - INFO - Episode 5	Test Reward: -4750.69
+2019-04-11 14:33:16,455 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:33:16,455 - root - INFO - Episode 5	Last reward: -4750.71	Average reward: -4824.51	Test Reward: -4750.69
+2019-04-11 14:33:28,418 - root - INFO - Episode 6	Last reward: -4722.51	Average reward: -4760.31
+2019-04-11 14:33:56,269 - root - INFO - Performane Improved
+2019-04-11 14:33:56,270 - root - INFO - Episode 6	Test Reward: -4381.45
+2019-04-11 14:33:56,270 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:33:56,271 - root - INFO - Episode 6	Last reward: -4319.51	Average reward: -4355.81	Test Reward: -4381.45
+2019-04-11 14:34:07,845 - root - INFO - Episode 7	Last reward: -4634.53	Average reward: -4463.65
+2019-04-11 14:34:35,480 - root - INFO - Performane Improved
+2019-04-11 14:34:35,480 - root - INFO - Episode 7	Test Reward: -3961.44
+2019-04-11 14:34:35,480 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:34:35,481 - root - INFO - Episode 7	Last reward: -3933.91	Average reward: -3907.48	Test Reward: -3961.44
+2019-04-11 14:34:46,792 - root - INFO - Episode 8	Last reward: -3981.53	Average reward: -4002.34
+2019-04-11 14:35:14,654 - root - INFO - Performane Improved
+2019-04-11 14:35:14,654 - root - INFO - Episode 8	Test Reward: -3643.00
+2019-04-11 14:35:14,654 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:35:14,655 - root - INFO - Episode 8	Last reward: -3623.92	Average reward: -3689.42	Test Reward: -3643.00
+2019-04-11 14:35:26,284 - root - INFO - Episode 9	Last reward: -3688.47	Average reward: -3684.34
+2019-04-11 14:35:54,171 - root - INFO - Performane Improved
+2019-04-11 14:35:54,172 - root - INFO - Episode 9	Test Reward: -3348.42
+2019-04-11 14:35:54,172 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:35:54,173 - root - INFO - Episode 9	Last reward: -3400.10	Average reward: -3347.71	Test Reward: -3348.42
+2019-04-11 14:36:05,884 - root - INFO - Episode 10	Last reward: -3522.54	Average reward: -3317.37
+2019-04-11 14:36:33,915 - root - INFO - Performane Improved
+2019-04-11 14:36:33,915 - root - INFO - Episode 10	Test Reward: -3130.38
+2019-04-11 14:36:33,915 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:36:33,916 - root - INFO - Episode 10	Last reward: -3120.48	Average reward: -3020.27	Test Reward: -3130.38
+2019-04-11 14:36:45,470 - root - INFO - Episode 11	Last reward: -3102.16	Average reward: -3052.10
+2019-04-11 14:37:13,398 - root - INFO - Performane Improved
+2019-04-11 14:37:13,398 - root - INFO - Episode 11	Test Reward: -2810.01
+2019-04-11 14:37:13,398 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:37:13,399 - root - INFO - Episode 11	Last reward: -3024.36	Average reward: -2879.41	Test Reward: -2810.01
+2019-04-11 14:37:25,110 - root - INFO - Episode 12	Last reward: -2745.25	Average reward: -2791.55
+2019-04-11 14:37:52,852 - root - INFO - Performane Improved
+2019-04-11 14:37:52,852 - root - INFO - Episode 12	Test Reward: -2765.94
+2019-04-11 14:37:52,852 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:37:52,853 - root - INFO - Episode 12	Last reward: -2563.92	Average reward: -2562.56	Test Reward: -2765.94
+2019-04-11 14:38:04,483 - root - INFO - Episode 13	Last reward: -2505.75	Average reward: -2467.69
+2019-04-11 14:38:32,712 - root - INFO - Performane Improved
+2019-04-11 14:38:32,712 - root - INFO - Episode 13	Test Reward: -2397.77
+2019-04-11 14:38:32,712 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:38:32,713 - root - INFO - Episode 13	Last reward: -2237.16	Average reward: -2233.84	Test Reward: -2397.77
+2019-04-11 14:38:44,831 - root - INFO - Episode 14	Last reward: -2304.26	Average reward: -2286.21
+2019-04-11 14:39:13,288 - root - INFO - Performane Improved
+2019-04-11 14:39:13,288 - root - INFO - Episode 14	Test Reward: -2081.75
+2019-04-11 14:39:13,289 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:39:13,290 - root - INFO - Episode 14	Last reward: -2029.21	Average reward: -1982.15	Test Reward: -2081.75
+2019-04-11 14:39:25,007 - root - INFO - Episode 15	Last reward: -2115.57	Average reward: -2044.70
+2019-04-11 14:39:53,112 - root - INFO - Performane Improved
+2019-04-11 14:39:53,113 - root - INFO - Episode 15	Test Reward: -1825.28
+2019-04-11 14:39:53,113 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:39:53,114 - root - INFO - Episode 15	Last reward: -1800.64	Average reward: -1706.04	Test Reward: -1825.28
+2019-04-11 14:40:04,786 - root - INFO - Episode 16	Last reward: -1790.67	Average reward: -1784.54
+2019-04-11 14:40:32,850 - root - INFO - Performane Improved
+2019-04-11 14:40:32,850 - root - INFO - Episode 16	Test Reward: -1541.64
+2019-04-11 14:40:32,850 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:40:32,851 - root - INFO - Episode 16	Last reward: -1436.83	Average reward: -1531.34	Test Reward: -1541.64
+2019-04-11 14:40:44,235 - root - INFO - Episode 17	Last reward: -1500.66	Average reward: -1519.18
+2019-04-11 14:41:12,252 - root - INFO - Performane Improved
+2019-04-11 14:41:12,252 - root - INFO - Episode 17	Test Reward: -1344.25
+2019-04-11 14:41:12,253 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:41:12,253 - root - INFO - Episode 17	Last reward: -1464.69	Average reward: -1371.21	Test Reward: -1344.25
+2019-04-11 14:41:23,784 - root - INFO - Episode 18	Last reward: -1238.68	Average reward: -1275.01
+2019-04-11 14:41:51,523 - root - INFO - Performane Improved
+2019-04-11 14:41:51,523 - root - INFO - Episode 18	Test Reward: -1101.65
+2019-04-11 14:41:51,524 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:41:51,525 - root - INFO - Episode 18	Last reward: -1235.05	Average reward: -1138.30	Test Reward: -1101.65
+2019-04-11 14:42:03,279 - root - INFO - Episode 19	Last reward: -1019.24	Average reward: -964.68
+2019-04-11 14:42:31,338 - root - INFO - Performane Improved
+2019-04-11 14:42:31,339 - root - INFO - Episode 19	Test Reward: -693.39
+2019-04-11 14:42:31,339 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:42:31,340 - root - INFO - Episode 19	Last reward: -797.34	Average reward: -804.44	Test Reward: -693.39
+2019-04-11 14:42:42,870 - root - INFO - Episode 20	Last reward: -830.05	Average reward: -732.48
+2019-04-11 14:43:11,447 - root - INFO - Performane Improved
+2019-04-11 14:43:11,447 - root - INFO - Episode 20	Test Reward: -459.22
+2019-04-11 14:43:11,447 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:43:11,448 - root - INFO - Episode 20	Last reward: -578.08	Average reward: -579.19	Test Reward: -459.22
+2019-04-11 14:43:23,586 - root - INFO - Episode 21	Last reward: -447.59	Average reward: -453.91
+2019-04-11 14:43:52,431 - root - INFO - Performane Improved
+2019-04-11 14:43:52,432 - root - INFO - Episode 21	Test Reward: -188.17
+2019-04-11 14:43:52,432 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:43:52,433 - root - INFO - Episode 21	Last reward: -287.13	Average reward: -164.42	Test Reward: -188.17
+2019-04-11 14:44:04,066 - root - INFO - Episode 22	Last reward: -159.19	Average reward: -186.39
+2019-04-11 14:44:32,244 - root - INFO - Performane Improved
+2019-04-11 14:44:32,244 - root - INFO - Episode 22	Test Reward: 185.24
+2019-04-11 14:44:32,244 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:44:32,245 - root - INFO - Episode 22	Last reward: 117.71	Average reward: 158.36	Test Reward: 185.24
+2019-04-11 14:44:43,943 - root - INFO - Episode 23	Last reward: 183.99	Average reward: 139.38
+2019-04-11 14:45:12,107 - root - INFO - Performane Improved
+2019-04-11 14:45:12,107 - root - INFO - Episode 23	Test Reward: 548.58
+2019-04-11 14:45:12,107 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:45:12,108 - root - INFO - Episode 23	Last reward: 574.52	Average reward: 554.50	Test Reward: 548.58
+2019-04-11 14:45:23,767 - root - INFO - Episode 24	Last reward: -6928.29	Average reward: -3190.12
+2019-04-11 14:45:51,634 - root - INFO - Performane Improved
+2019-04-11 14:45:51,634 - root - INFO - Episode 24	Test Reward: 595.48
+2019-04-11 14:45:51,634 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:45:51,635 - root - INFO - Episode 24	Last reward: 690.38	Average reward: 640.39	Test Reward: 595.48
+2019-04-11 14:46:02,925 - root - INFO - Episode 25	Last reward: 659.31	Average reward: 586.22
+2019-04-11 14:46:31,132 - root - INFO - Performane Improved
+2019-04-11 14:46:31,133 - root - INFO - Episode 25	Test Reward: 877.53
+2019-04-11 14:46:31,133 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:46:31,134 - root - INFO - Episode 25	Last reward: 774.21	Average reward: 803.60	Test Reward: 877.53
+2019-04-11 14:46:42,659 - root - INFO - Episode 26	Last reward: 1093.13	Average reward: 925.95
+2019-04-11 14:47:10,549 - root - INFO - Performane Improved
+2019-04-11 14:47:10,550 - root - INFO - Episode 26	Test Reward: 1076.62
+2019-04-11 14:47:10,550 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:47:10,551 - root - INFO - Episode 26	Last reward: 1096.56	Average reward: 1119.91	Test Reward: 1076.62
+2019-04-11 14:47:21,900 - root - INFO - Episode 27	Last reward: 1045.01	Average reward: 1090.36
+2019-04-11 14:47:49,617 - root - INFO - Performane Improved
+2019-04-11 14:47:49,617 - root - INFO - Episode 27	Test Reward: 1399.50
+2019-04-11 14:47:49,618 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:47:49,618 - root - INFO - Episode 27	Last reward: 1393.16	Average reward: 1319.76	Test Reward: 1399.50
+2019-04-11 14:48:01,065 - root - INFO - Episode 28	Last reward: 1336.17	Average reward: 1331.28
+2019-04-11 14:48:29,155 - root - INFO - Performane Improved
+2019-04-11 14:48:29,155 - root - INFO - Episode 28	Test Reward: 1668.15
+2019-04-11 14:48:29,155 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:48:29,156 - root - INFO - Episode 28	Last reward: 1612.74	Average reward: 1639.54	Test Reward: 1668.15
+2019-04-11 14:48:40,691 - root - INFO - Episode 29	Last reward: 1706.10	Average reward: 1660.48
+2019-04-11 14:49:09,651 - root - INFO - Episode 29	Last reward: 1997.34	Average reward: -1823.99	Test Reward: 525.68
+2019-04-11 14:49:21,399 - root - INFO - Episode 30	Last reward: 2021.82	Average reward: 2045.53
+2019-04-11 14:49:49,282 - root - INFO - Performane Improved
+2019-04-11 14:49:49,282 - root - INFO - Episode 30	Test Reward: 2393.92
+2019-04-11 14:49:49,282 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:49:49,283 - root - INFO - Episode 30	Last reward: 2298.91	Average reward: 2284.14	Test Reward: 2393.92
+2019-04-11 14:50:01,107 - root - INFO - Episode 31	Last reward: 2282.64	Average reward: 2350.31
+2019-04-11 14:50:29,722 - root - INFO - Performane Improved
+2019-04-11 14:50:29,722 - root - INFO - Episode 31	Test Reward: 2740.92
+2019-04-11 14:50:29,723 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:50:29,724 - root - INFO - Episode 31	Last reward: 2646.45	Average reward: 2617.91	Test Reward: 2740.92
+2019-04-11 14:50:41,560 - root - INFO - Episode 32	Last reward: 2615.56	Average reward: 2629.35
+2019-04-11 14:51:09,064 - root - INFO - Performane Improved
+2019-04-11 14:51:09,064 - root - INFO - Episode 32	Test Reward: 3090.37
+2019-04-11 14:51:09,064 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:51:09,065 - root - INFO - Episode 32	Last reward: 3084.30	Average reward: 3134.75	Test Reward: 3090.37
+2019-04-11 14:51:20,612 - root - INFO - Episode 33	Last reward: 3036.97	Average reward: 2994.90
+2019-04-11 14:51:48,686 - root - INFO - Performane Improved
+2019-04-11 14:51:48,686 - root - INFO - Episode 33	Test Reward: 3384.28
+2019-04-11 14:51:48,687 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:51:48,687 - root - INFO - Episode 33	Last reward: 3015.22	Average reward: 3184.85	Test Reward: 3384.28
+2019-04-11 14:52:00,491 - root - INFO - Episode 34	Last reward: 3539.75	Average reward: 3408.67
+2019-04-11 14:52:28,534 - root - INFO - Performane Improved
+2019-04-11 14:52:28,535 - root - INFO - Episode 34	Test Reward: 3612.89
+2019-04-11 14:52:28,535 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:52:28,536 - root - INFO - Episode 34	Last reward: 3626.91	Average reward: 3575.53	Test Reward: 3612.89
+2019-04-11 14:52:40,214 - root - INFO - Episode 35	Last reward: 3539.75	Average reward: 3631.14
+2019-04-11 14:53:08,285 - root - INFO - Performane Improved
+2019-04-11 14:53:08,285 - root - INFO - Episode 35	Test Reward: 3979.73
+2019-04-11 14:53:08,286 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:53:08,286 - root - INFO - Episode 35	Last reward: 3980.16	Average reward: 3869.33	Test Reward: 3979.73
+2019-04-11 14:53:19,946 - root - INFO - Episode 36	Last reward: 3753.50	Average reward: 3828.48
+2019-04-11 14:53:47,662 - root - INFO - Episode 36	Last reward: 4275.62	Average reward: 4167.09	Test Reward: 3959.75
+2019-04-11 14:53:59,699 - root - INFO - Episode 37	Last reward: 4168.21	Average reward: 3960.54
+2019-04-11 14:54:27,384 - root - INFO - Performane Improved
+2019-04-11 14:54:27,384 - root - INFO - Episode 37	Test Reward: 4362.97
+2019-04-11 14:54:27,385 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:54:27,386 - root - INFO - Episode 37	Last reward: 4427.71	Average reward: 4370.05	Test Reward: 4362.97
+2019-04-11 14:54:38,872 - root - INFO - Episode 38	Last reward: 4496.48	Average reward: 4357.34
+2019-04-11 14:55:06,558 - root - INFO - Episode 38	Last reward: 4591.53	Average reward: 4632.06	Test Reward: 2114.17
+2019-04-11 14:55:17,989 - root - INFO - Episode 39	Last reward: 4674.28	Average reward: 4730.73
+2019-04-11 14:55:46,104 - root - INFO - Performane Improved
+2019-04-11 14:55:46,105 - root - INFO - Episode 39	Test Reward: 4905.83
+2019-04-11 14:55:46,105 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:55:46,106 - root - INFO - Episode 39	Last reward: 5012.95	Average reward: 4933.33	Test Reward: 4905.83
+2019-04-11 14:55:57,950 - root - INFO - Episode 40	Last reward: 4978.51	Average reward: 4892.44
+2019-04-11 14:56:25,583 - root - INFO - Performane Improved
+2019-04-11 14:56:25,583 - root - INFO - Episode 40	Test Reward: 5354.07
+2019-04-11 14:56:25,583 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:56:25,584 - root - INFO - Episode 40	Last reward: 5418.23	Average reward: 5253.66	Test Reward: 5354.07
+2019-04-11 14:56:36,916 - root - INFO - Episode 41	Last reward: 5347.96	Average reward: 5438.71
+2019-04-11 14:57:05,129 - root - INFO - Performane Improved
+2019-04-11 14:57:05,129 - root - INFO - Episode 41	Test Reward: 5505.89
+2019-04-11 14:57:05,130 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:57:05,131 - root - INFO - Episode 41	Last reward: 5697.88	Average reward: 5729.31	Test Reward: 5505.89
+2019-04-11 14:57:16,797 - root - INFO - Episode 42	Last reward: 5504.12	Average reward: 5529.20
+2019-04-11 14:57:45,277 - root - INFO - Performane Improved
+2019-04-11 14:57:45,278 - root - INFO - Episode 42	Test Reward: 5951.21
+2019-04-11 14:57:45,278 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:57:45,279 - root - INFO - Episode 42	Last reward: 6057.61	Average reward: 5941.67	Test Reward: 5951.21
+2019-04-11 14:57:56,745 - root - INFO - Episode 43	Last reward: 5909.95	Average reward: 5882.46
+2019-04-11 14:58:24,252 - root - INFO - Performane Improved
+2019-04-11 14:58:24,252 - root - INFO - Episode 43	Test Reward: 6226.14
+2019-04-11 14:58:24,253 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:58:24,253 - root - INFO - Episode 43	Last reward: 6123.70	Average reward: 6126.02	Test Reward: 6226.14
+2019-04-11 14:58:35,752 - root - INFO - Episode 44	Last reward: 6073.07	Average reward: 5688.70
+2019-04-11 14:59:03,780 - root - INFO - Performane Improved
+2019-04-11 14:59:03,780 - root - INFO - Episode 44	Test Reward: 6258.84
+2019-04-11 14:59:03,780 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:59:03,781 - root - INFO - Episode 44	Last reward: 6129.09	Average reward: 6273.53	Test Reward: 6258.84
+2019-04-11 14:59:15,383 - root - INFO - Episode 45	Last reward: 6106.81	Average reward: 6222.14
+2019-04-11 14:59:43,277 - root - INFO - Performane Improved
+2019-04-11 14:59:43,277 - root - INFO - Episode 45	Test Reward: 6379.11
+2019-04-11 14:59:43,278 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 14:59:43,278 - root - INFO - Episode 45	Last reward: 6356.37	Average reward: 6423.90	Test Reward: 6379.11
+2019-04-11 14:59:54,742 - root - INFO - Episode 46	Last reward: 6487.40	Average reward: 6423.31
+2019-04-11 15:00:22,387 - root - INFO - Performane Improved
+2019-04-11 15:00:22,387 - root - INFO - Episode 46	Test Reward: 6596.93
+2019-04-11 15:00:22,387 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:00:22,388 - root - INFO - Episode 46	Last reward: 6681.21	Average reward: 6607.57	Test Reward: 6596.93
+2019-04-11 15:00:33,751 - root - INFO - Episode 47	Last reward: 6382.97	Average reward: 6415.75
+2019-04-11 15:01:01,675 - root - INFO - Performane Improved
+2019-04-11 15:01:01,675 - root - INFO - Episode 47	Test Reward: 6729.11
+2019-04-11 15:01:01,675 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:01:01,676 - root - INFO - Episode 47	Last reward: 6914.37	Average reward: 6930.16	Test Reward: 6729.11
+2019-04-11 15:01:13,264 - root - INFO - Episode 48	Last reward: 6650.45	Average reward: 6601.55
+2019-04-11 15:01:40,712 - root - INFO - Performane Improved
+2019-04-11 15:01:40,713 - root - INFO - Episode 48	Test Reward: 7003.33
+2019-04-11 15:01:40,713 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:01:40,714 - root - INFO - Episode 48	Last reward: 6614.32	Average reward: 6764.48	Test Reward: 7003.33
+2019-04-11 15:01:52,167 - root - INFO - Episode 49	Last reward: 6682.18	Average reward: 6783.63
+2019-04-11 15:02:20,462 - root - INFO - Episode 49	Last reward: 6721.91	Average reward: 6724.65	Test Reward: 6892.91
+2019-04-11 15:02:32,136 - root - INFO - Episode 50	Last reward: 7225.99	Average reward: 7139.84
+2019-04-11 15:03:00,734 - root - INFO - Episode 50	Last reward: 4212.72	Average reward: 5529.79	Test Reward: 3971.65
+2019-04-11 15:03:12,949 - root - INFO - Episode 51	Last reward: 7252.32	Average reward: 6666.95
+2019-04-11 15:03:40,952 - root - INFO - Episode 51	Last reward: 1661.52	Average reward: 1319.46	Test Reward: 3698.14
+2019-04-11 15:03:53,793 - root - INFO - Episode 52	Last reward: 1435.83	Average reward: 1239.79
+2019-04-11 15:04:21,705 - root - INFO - Episode 52	Last reward: 5151.82	Average reward: 5967.69	Test Reward: 6820.86
+2019-04-11 15:04:33,271 - root - INFO - Episode 53	Last reward: 7374.33	Average reward: 6965.63
+2019-04-11 15:05:01,144 - root - INFO - Episode 53	Last reward: 6935.86	Average reward: 6852.05	Test Reward: 6269.20
+2019-04-11 15:05:12,663 - root - INFO - Episode 54	Last reward: 7564.44	Average reward: 6578.35
+2019-04-11 15:05:40,654 - root - INFO - Episode 54	Last reward: 6677.88	Average reward: 7154.94	Test Reward: 6407.05
+2019-04-11 15:05:52,362 - root - INFO - Episode 55	Last reward: 6803.42	Average reward: 6890.31
+2019-04-11 15:06:20,901 - root - INFO - Performane Improved
+2019-04-11 15:06:20,901 - root - INFO - Episode 55	Test Reward: 7611.74
+2019-04-11 15:06:20,901 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:06:20,902 - root - INFO - Episode 55	Last reward: 7708.38	Average reward: 7500.90	Test Reward: 7611.74
+2019-04-11 15:06:32,607 - root - INFO - Episode 56	Last reward: 7192.78	Average reward: 7426.00
+2019-04-11 15:07:01,318 - root - INFO - Episode 56	Last reward: 7963.09	Average reward: 7881.65	Test Reward: 7427.23
+2019-04-11 15:07:12,859 - root - INFO - Episode 57	Last reward: 6968.94	Average reward: 7393.32
+2019-04-11 15:07:40,902 - root - INFO - Episode 57	Last reward: 8181.79	Average reward: 7823.34	Test Reward: 6628.86
+2019-04-11 15:07:52,410 - root - INFO - Episode 58	Last reward: 8065.57	Average reward: 7714.87
+2019-04-11 15:08:20,174 - root - INFO - Performane Improved
+2019-04-11 15:08:20,175 - root - INFO - Episode 58	Test Reward: 7705.98
+2019-04-11 15:08:20,175 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:08:20,176 - root - INFO - Episode 58	Last reward: 6394.89	Average reward: 7333.82	Test Reward: 7705.98
+2019-04-11 15:08:31,556 - root - INFO - Episode 59	Last reward: 7764.32	Average reward: 7957.70
+2019-04-11 15:08:59,986 - root - INFO - Episode 59	Last reward: 7068.98	Average reward: 7407.33	Test Reward: 7477.00
+2019-04-11 15:09:11,570 - root - INFO - Episode 60	Last reward: 6847.74	Average reward: 7018.56
+2019-04-11 15:09:39,165 - root - INFO - Performane Improved
+2019-04-11 15:09:39,166 - root - INFO - Episode 60	Test Reward: 8040.13
+2019-04-11 15:09:39,166 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:09:39,167 - root - INFO - Episode 60	Last reward: 8499.66	Average reward: 6742.59	Test Reward: 8040.13
+2019-04-11 15:09:50,585 - root - INFO - Episode 61	Last reward: 7518.71	Average reward: 7481.97
+2019-04-11 15:10:19,022 - root - INFO - Performane Improved
+2019-04-11 15:10:19,022 - root - INFO - Episode 61	Test Reward: 8085.44
+2019-04-11 15:10:19,023 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:10:19,023 - root - INFO - Episode 61	Last reward: 7741.93	Average reward: 7667.65	Test Reward: 8085.44
+2019-04-11 15:10:30,756 - root - INFO - Episode 62	Last reward: 7001.58	Average reward: 7556.02
+2019-04-11 15:10:58,460 - root - INFO - Performane Improved
+2019-04-11 15:10:58,460 - root - INFO - Episode 62	Test Reward: 8144.15
+2019-04-11 15:10:58,461 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:10:58,461 - root - INFO - Episode 62	Last reward: 8242.25	Average reward: 8208.86	Test Reward: 8144.15
+2019-04-11 15:11:09,856 - root - INFO - Episode 63	Last reward: 8719.41	Average reward: 8480.12
+2019-04-11 15:11:37,607 - root - INFO - Performane Improved
+2019-04-11 15:11:37,607 - root - INFO - Episode 63	Test Reward: 8618.53
+2019-04-11 15:11:37,607 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:11:37,608 - root - INFO - Episode 63	Last reward: 8606.62	Average reward: 8248.75	Test Reward: 8618.53
+2019-04-11 15:11:49,060 - root - INFO - Episode 64	Last reward: 8258.52	Average reward: 8343.87
+2019-04-11 15:12:17,101 - root - INFO - Episode 64	Last reward: 8448.19	Average reward: 8491.58	Test Reward: 8234.81
+2019-04-11 15:12:28,780 - root - INFO - Episode 65	Last reward: 8103.48	Average reward: 8298.88
+2019-04-11 15:12:56,777 - root - INFO - Episode 65	Last reward: 8473.71	Average reward: 8503.55	Test Reward: 8317.17
+2019-04-11 15:13:08,378 - root - INFO - Episode 66	Last reward: 8661.02	Average reward: 8778.61
+2019-04-11 15:13:36,242 - root - INFO - Episode 66	Last reward: 7684.58	Average reward: 7014.94	Test Reward: 8417.23
+2019-04-11 15:13:47,518 - root - INFO - Episode 67	Last reward: 7421.43	Average reward: 7782.45
+2019-04-11 15:14:15,310 - root - INFO - Episode 67	Last reward: 8678.86	Average reward: 8269.30	Test Reward: 6844.69
+2019-04-11 15:14:26,817 - root - INFO - Episode 68	Last reward: 9190.06	Average reward: 9114.41
+2019-04-11 15:14:55,228 - root - INFO - Episode 68	Last reward: 926.19	Average reward: 871.80	Test Reward: 1255.95
+2019-04-11 15:15:06,857 - root - INFO - Episode 69	Last reward: 1278.10	Average reward: 1078.56
+2019-04-11 15:15:35,989 - root - INFO - Episode 69	Last reward: 7350.17	Average reward: 5495.32	Test Reward: 6195.34
+2019-04-11 15:15:47,639 - root - INFO - Episode 70	Last reward: 3612.05	Average reward: 6287.27
+2019-04-11 15:16:15,169 - root - INFO - Episode 70	Last reward: 9280.12	Average reward: 8626.84	Test Reward: 6284.27
+2019-04-11 15:16:26,454 - root - INFO - Episode 71	Last reward: 6684.69	Average reward: 7354.92
+2019-04-11 15:16:53,871 - root - INFO - Episode 71	Last reward: 7512.10	Average reward: 6252.63	Test Reward: 7816.96
+2019-04-11 15:17:05,277 - root - INFO - Episode 72	Last reward: 9282.26	Average reward: 8661.29
+2019-04-11 15:17:33,410 - root - INFO - Episode 72	Last reward: 2957.15	Average reward: 4255.70	Test Reward: 7487.76
+2019-04-11 15:17:44,943 - root - INFO - Episode 73	Last reward: 3030.52	Average reward: 5998.20
+2019-04-11 15:18:12,578 - root - INFO - Performane Improved
+2019-04-11 15:18:12,579 - root - INFO - Episode 73	Test Reward: 8916.92
+2019-04-11 15:18:12,579 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:18:12,580 - root - INFO - Episode 73	Last reward: 6706.84	Average reward: 7552.40	Test Reward: 8916.92
+2019-04-11 15:18:23,986 - root - INFO - Episode 74	Last reward: 7961.16	Average reward: 8259.72
+2019-04-11 15:18:51,804 - root - INFO - Episode 74	Last reward: 8348.63	Average reward: 8578.04	Test Reward: 8567.06
+2019-04-11 15:19:03,536 - root - INFO - Episode 75	Last reward: 4524.96	Average reward: 6019.99
+2019-04-11 15:19:31,341 - root - INFO - Performane Improved
+2019-04-11 15:19:31,341 - root - INFO - Episode 75	Test Reward: 9046.95
+2019-04-11 15:19:31,342 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:19:31,342 - root - INFO - Episode 75	Last reward: 9196.04	Average reward: 8597.47	Test Reward: 9046.95
+2019-04-11 15:19:42,892 - root - INFO - Episode 76	Last reward: 9123.35	Average reward: 9098.51
+2019-04-11 15:20:11,102 - root - INFO - Performane Improved
+2019-04-11 15:20:11,103 - root - INFO - Episode 76	Test Reward: 9381.79
+2019-04-11 15:20:11,103 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:20:11,104 - root - INFO - Episode 76	Last reward: 8737.55	Average reward: 8728.10	Test Reward: 9381.79
+2019-04-11 15:20:22,652 - root - INFO - Episode 77	Last reward: 9473.70	Average reward: 9495.95
+2019-04-11 15:20:51,043 - root - INFO - Episode 77	Last reward: 9185.07	Average reward: 9347.58	Test Reward: 9323.39
+2019-04-11 15:21:04,008 - root - INFO - Episode 78	Last reward: 9136.25	Average reward: 9203.43
+2019-04-11 15:21:32,433 - root - INFO - Performane Improved
+2019-04-11 15:21:32,433 - root - INFO - Episode 78	Test Reward: 10070.88
+2019-04-11 15:21:32,433 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:21:32,434 - root - INFO - Episode 78	Last reward: 10091.78	Average reward: 9912.85	Test Reward: 10070.88
+2019-04-11 15:21:43,940 - root - INFO - Episode 79	Last reward: 9348.99	Average reward: 9345.49
+2019-04-11 15:22:11,792 - root - INFO - Episode 79	Last reward: 9940.66	Average reward: 9981.99	Test Reward: 10061.37
+2019-04-11 15:22:23,313 - root - INFO - Episode 80	Last reward: 9886.87	Average reward: 8601.56
+2019-04-11 15:22:51,467 - root - INFO - Episode 80	Last reward: 9836.49	Average reward: 9931.12	Test Reward: 10040.43
+2019-04-11 15:23:03,180 - root - INFO - Episode 81	Last reward: 10123.34	Average reward: 10007.79
+2019-04-11 15:23:30,711 - root - INFO - Performane Improved
+2019-04-11 15:23:30,711 - root - INFO - Episode 81	Test Reward: 10226.44
+2019-04-11 15:23:30,711 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:23:30,712 - root - INFO - Episode 81	Last reward: 10013.55	Average reward: 10026.10	Test Reward: 10226.44
+2019-04-11 15:23:42,066 - root - INFO - Episode 82	Last reward: 10226.17	Average reward: 10101.43
+2019-04-11 15:24:09,742 - root - INFO - Performane Improved
+2019-04-11 15:24:09,742 - root - INFO - Episode 82	Test Reward: 10264.74
+2019-04-11 15:24:09,742 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:24:09,743 - root - INFO - Episode 82	Last reward: 10248.93	Average reward: 9278.86	Test Reward: 10264.74
+2019-04-11 15:24:21,072 - root - INFO - Episode 83	Last reward: 10268.59	Average reward: 10109.08
+2019-04-11 15:24:48,944 - root - INFO - Performane Improved
+2019-04-11 15:24:48,944 - root - INFO - Episode 83	Test Reward: 10439.33
+2019-04-11 15:24:48,944 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:24:48,945 - root - INFO - Episode 83	Last reward: 10397.55	Average reward: 10261.40	Test Reward: 10439.33
+2019-04-11 15:25:00,254 - root - INFO - Episode 84	Last reward: 10306.11	Average reward: 10275.78
+2019-04-11 15:25:28,466 - root - INFO - Episode 84	Last reward: 10448.80	Average reward: 10555.58	Test Reward: 8698.74
+2019-04-11 15:25:39,857 - root - INFO - Episode 85	Last reward: 10181.92	Average reward: 10363.56
+2019-04-11 15:26:07,765 - root - INFO - Episode 85	Last reward: 10576.33	Average reward: 9930.22	Test Reward: 10299.88
+2019-04-11 15:26:19,338 - root - INFO - Episode 86	Last reward: 10142.27	Average reward: 9845.34
+2019-04-11 15:26:47,064 - root - INFO - Performane Improved
+2019-04-11 15:26:47,065 - root - INFO - Episode 86	Test Reward: 10553.59
+2019-04-11 15:26:47,065 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:26:47,065 - root - INFO - Episode 86	Last reward: 10140.55	Average reward: 10364.15	Test Reward: 10553.59
+2019-04-11 15:26:58,402 - root - INFO - Episode 87	Last reward: 10433.43	Average reward: 10420.44
+2019-04-11 15:27:26,748 - root - INFO - Episode 87	Last reward: 10450.01	Average reward: 10183.35	Test Reward: 10492.54
+2019-04-11 15:27:38,441 - root - INFO - Episode 88	Last reward: 10300.35	Average reward: 10241.60
+2019-04-11 15:28:06,448 - root - INFO - Episode 88	Last reward: 10824.77	Average reward: 10376.51	Test Reward: 10350.05
+2019-04-11 15:28:17,854 - root - INFO - Episode 89	Last reward: 10507.17	Average reward: 10594.55
+2019-04-11 15:28:45,673 - root - INFO - Episode 89	Last reward: 9581.17	Average reward: 10163.33	Test Reward: 6276.85
+2019-04-11 15:28:57,010 - root - INFO - Episode 90	Last reward: 10726.83	Average reward: 10743.41
+2019-04-11 15:29:25,196 - root - INFO - Episode 90	Last reward: 3847.24	Average reward: 5866.38	Test Reward: 5135.31
+2019-04-11 15:29:36,669 - root - INFO - Episode 91	Last reward: 10719.39	Average reward: 10143.33
+2019-04-11 15:30:05,264 - root - INFO - Episode 91	Last reward: 10441.64	Average reward: 10157.55	Test Reward: 9646.53
+2019-04-11 15:30:17,130 - root - INFO - Episode 92	Last reward: 10446.40	Average reward: 10279.32
+2019-04-11 15:30:44,785 - root - INFO - Episode 92	Last reward: 10501.36	Average reward: 10724.05	Test Reward: 10218.46
+2019-04-11 15:30:56,206 - root - INFO - Episode 93	Last reward: 10971.03	Average reward: 10907.64
+2019-04-11 15:31:23,927 - root - INFO - Episode 93	Last reward: 7832.30	Average reward: 9240.34	Test Reward: 9370.05
+2019-04-11 15:31:35,225 - root - INFO - Episode 94	Last reward: 10040.03	Average reward: 10413.84
+2019-04-11 15:32:02,740 - root - INFO - Episode 94	Last reward: 10084.72	Average reward: 10667.92	Test Reward: 9569.40
+2019-04-11 15:32:14,133 - root - INFO - Episode 95	Last reward: 10114.60	Average reward: 10187.75
+2019-04-11 15:32:42,541 - root - INFO - Episode 95	Last reward: 10089.99	Average reward: 10571.82	Test Reward: 10056.67
+2019-04-11 15:32:54,275 - root - INFO - Episode 96	Last reward: 10870.63	Average reward: 10605.21
+2019-04-11 15:33:22,112 - root - INFO - Episode 96	Last reward: 10562.13	Average reward: 9763.18	Test Reward: 9592.51
+2019-04-11 15:33:33,567 - root - INFO - Episode 97	Last reward: 10727.90	Average reward: 10589.10
+2019-04-11 15:34:01,246 - root - INFO - Episode 97	Last reward: 9728.12	Average reward: 9750.85	Test Reward: 9152.00
+2019-04-11 15:34:12,713 - root - INFO - Episode 98	Last reward: 11040.01	Average reward: 10123.43
+2019-04-11 15:34:40,709 - root - INFO - Episode 98	Last reward: 10676.53	Average reward: 10878.61	Test Reward: 10318.62
+2019-04-11 15:34:52,205 - root - INFO - Episode 99	Last reward: 11219.39	Average reward: 11161.95
+2019-04-11 15:35:19,738 - root - INFO - Performane Improved
+2019-04-11 15:35:19,739 - root - INFO - Episode 99	Test Reward: 11136.56
+2019-04-11 15:35:19,739 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:35:19,740 - root - INFO - Episode 99	Last reward: 6854.13	Average reward: 8942.58	Test Reward: 11136.56
+2019-04-11 15:35:31,096 - root - INFO - Episode 100	Last reward: 11001.97	Average reward: 11250.15
+2019-04-11 15:35:58,350 - root - INFO - Performane Improved
+2019-04-11 15:35:58,350 - root - INFO - Episode 100	Test Reward: 11623.09
+2019-04-11 15:35:58,351 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:35:58,351 - root - INFO - Episode 100	Last reward: 11367.12	Average reward: 10142.20	Test Reward: 11623.09
+2019-04-11 15:36:09,668 - root - INFO - Episode 101	Last reward: 8939.69	Average reward: 10378.50
+2019-04-11 15:36:38,086 - root - INFO - Episode 101	Last reward: 11595.22	Average reward: 11562.32	Test Reward: 11333.95
+2019-04-11 15:36:50,291 - root - INFO - Episode 102	Last reward: 11337.44	Average reward: 11432.87
+2019-04-11 15:37:18,177 - root - INFO - Performane Improved
+2019-04-11 15:37:18,178 - root - INFO - Episode 102	Test Reward: 11816.10
+2019-04-11 15:37:18,178 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:37:18,179 - root - INFO - Episode 102	Last reward: 11725.71	Average reward: 11750.99	Test Reward: 11816.10
+2019-04-11 15:37:29,803 - root - INFO - Episode 103	Last reward: 11411.14	Average reward: 11575.29
+2019-04-11 15:37:57,969 - root - INFO - Episode 103	Last reward: 11791.21	Average reward: 11729.21	Test Reward: 11814.90
+2019-04-11 15:38:09,610 - root - INFO - Episode 104	Last reward: 11714.64	Average reward: 11761.62
+2019-04-11 15:38:37,559 - root - INFO - Performane Improved
+2019-04-11 15:38:37,559 - root - INFO - Episode 104	Test Reward: 11980.01
+2019-04-11 15:38:37,559 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:38:37,560 - root - INFO - Episode 104	Last reward: 12069.45	Average reward: 12058.83	Test Reward: 11980.01
+2019-04-11 15:38:49,605 - root - INFO - Episode 105	Last reward: 11973.12	Average reward: 12057.43
+2019-04-11 15:39:17,341 - root - INFO - Episode 105	Last reward: 12176.26	Average reward: 12123.07	Test Reward: 11926.98
+2019-04-11 15:39:29,397 - root - INFO - Episode 106	Last reward: 12082.84	Average reward: 12211.24
+2019-04-11 15:39:57,239 - root - INFO - Performane Improved
+2019-04-11 15:39:57,239 - root - INFO - Episode 106	Test Reward: 12166.80
+2019-04-11 15:39:57,239 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:39:57,240 - root - INFO - Episode 106	Last reward: 11994.25	Average reward: 11958.77	Test Reward: 12166.80
+2019-04-11 15:40:08,740 - root - INFO - Episode 107	Last reward: 12197.37	Average reward: 12060.73
+2019-04-11 15:40:37,087 - root - INFO - Performane Improved
+2019-04-11 15:40:37,088 - root - INFO - Episode 107	Test Reward: 12482.35
+2019-04-11 15:40:37,088 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:40:37,089 - root - INFO - Episode 107	Last reward: 12113.41	Average reward: 12061.65	Test Reward: 12482.35
+2019-04-11 15:40:48,753 - root - INFO - Episode 108	Last reward: 12565.44	Average reward: 12352.30
+2019-04-11 15:41:16,950 - root - INFO - Episode 108	Last reward: 12550.44	Average reward: 12392.30	Test Reward: 12363.00
+2019-04-11 15:41:28,421 - root - INFO - Episode 109	Last reward: 11691.71	Average reward: 11847.75
+2019-04-11 15:41:55,827 - root - INFO - Episode 109	Last reward: 12375.01	Average reward: 12115.15	Test Reward: 12367.27
+2019-04-11 15:42:07,161 - root - INFO - Episode 110	Last reward: 12410.04	Average reward: 12348.50
+2019-04-11 15:42:34,989 - root - INFO - Performane Improved
+2019-04-11 15:42:34,990 - root - INFO - Episode 110	Test Reward: 12558.34
+2019-04-11 15:42:34,990 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:42:34,991 - root - INFO - Episode 110	Last reward: 12666.01	Average reward: 12481.92	Test Reward: 12558.34
+2019-04-11 15:42:46,502 - root - INFO - Episode 111	Last reward: 12334.50	Average reward: 12757.47
+2019-04-11 15:43:14,253 - root - INFO - Performane Improved
+2019-04-11 15:43:14,253 - root - INFO - Episode 111	Test Reward: 12679.18
+2019-04-11 15:43:14,253 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:43:14,254 - root - INFO - Episode 111	Last reward: 12542.46	Average reward: 12490.34	Test Reward: 12679.18
+2019-04-11 15:43:25,834 - root - INFO - Episode 112	Last reward: 12716.62	Average reward: 12643.12
+2019-04-11 15:43:53,674 - root - INFO - Performane Improved
+2019-04-11 15:43:53,674 - root - INFO - Episode 112	Test Reward: 12948.98
+2019-04-11 15:43:53,674 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:43:53,675 - root - INFO - Episode 112	Last reward: 12227.79	Average reward: 12374.37	Test Reward: 12948.98
+2019-04-11 15:44:05,350 - root - INFO - Episode 113	Last reward: 13247.31	Average reward: 12832.08
+2019-04-11 15:44:33,212 - root - INFO - Performane Improved
+2019-04-11 15:44:33,212 - root - INFO - Episode 113	Test Reward: 12959.57
+2019-04-11 15:44:33,213 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:44:33,213 - root - INFO - Episode 113	Last reward: 12395.41	Average reward: 12492.95	Test Reward: 12959.57
+2019-04-11 15:44:44,797 - root - INFO - Episode 114	Last reward: 12357.61	Average reward: 12460.42
+2019-04-11 15:45:12,313 - root - INFO - Performane Improved
+2019-04-11 15:45:12,313 - root - INFO - Episode 114	Test Reward: 13006.18
+2019-04-11 15:45:12,314 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:45:12,314 - root - INFO - Episode 114	Last reward: 12382.27	Average reward: 12529.95	Test Reward: 13006.18
+2019-04-11 15:45:23,652 - root - INFO - Episode 115	Last reward: 12602.15	Average reward: 12554.71
+2019-04-11 15:45:51,250 - root - INFO - Episode 115	Last reward: 12772.92	Average reward: 12765.14	Test Reward: 12652.51
+2019-04-11 15:46:02,767 - root - INFO - Episode 116	Last reward: 12330.91	Average reward: 12363.96
+2019-04-11 15:46:30,639 - root - INFO - Episode 116	Last reward: 13058.53	Average reward: 12720.74	Test Reward: 12833.11
+2019-04-11 15:46:42,326 - root - INFO - Episode 117	Last reward: 12689.22	Average reward: 12678.33
+2019-04-11 15:47:10,468 - root - INFO - Performane Improved
+2019-04-11 15:47:10,468 - root - INFO - Episode 117	Test Reward: 13264.60
+2019-04-11 15:47:10,468 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:47:10,469 - root - INFO - Episode 117	Last reward: 13313.13	Average reward: 12967.57	Test Reward: 13264.60
+2019-04-11 15:47:22,560 - root - INFO - Episode 118	Last reward: 12991.16	Average reward: 13160.42
+2019-04-11 15:47:50,219 - root - INFO - Performane Improved
+2019-04-11 15:47:50,220 - root - INFO - Episode 118	Test Reward: 13742.25
+2019-04-11 15:47:50,220 - root - INFO - =>saving a new best checkpoint...
+2019-04-11 15:47:50,221 - root - INFO - Episode 118	Last reward: 12512.73	Average reward: 13586.04	Test Reward: 13742.25
+2019-04-11 15:48:01,803 - root - INFO - Episode 119	Last reward: 12977.35	Average reward: 12782.14
+2019-04-11 15:48:29,449 - root - INFO - Episode 119	Last reward: 13099.33	Average reward: 12882.11	Test Reward: 13424.98
+2019-04-11 15:48:40,985 - root - INFO - Episode 120	Last reward: 13607.26	Average reward: 13703.54
+2019-04-11 15:49:09,509 - root - INFO - Episode 120	Last reward: 12433.00	Average reward: 12823.82	Test Reward: 13173.12
+2019-04-11 15:49:21,166 - root - INFO - Episode 121	Last reward: 12406.54	Average reward: 12688.14
+2019-04-11 15:49:49,289 - root - INFO - Episode 121	Last reward: 12582.55	Average reward: 12561.81	Test Reward: 12930.77
